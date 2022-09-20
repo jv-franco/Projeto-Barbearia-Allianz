@@ -216,6 +216,7 @@ input{
     width: 500%;
     height: 100%;
     position: relative;
+    transform: translateY(100px);
 }
 
 .slide{
@@ -263,6 +264,7 @@ input{
 }
 
 .logos a{
+    text-decoration: none;
     color: var(--cor4);
     font-size: 13px;
     font-family: var(--fonte--padrao);
@@ -273,8 +275,8 @@ input{
 }
 
 .logos a:hover{
-    font-weight: bolder;
-    text-decoration: underline;
+    color: #EEBC7D;
+   
 }
 
 .logos img{
@@ -282,8 +284,10 @@ input{
     width: 70px;
 }
 
+
 .share{
     margin-right: 20px;
+    
 }
 
 
